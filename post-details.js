@@ -10,6 +10,7 @@ for (const item of [info]) {
                              <p>body ~ ${item.body}</p>`
 }
 
+
 document.addEventListener('click', back)
 
 function back(e) {

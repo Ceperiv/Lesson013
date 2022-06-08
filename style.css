@@ -78,6 +78,7 @@ body {
     border-radius: 15px;
 }
 
+
 h1 {
     letter-spacing: 5px;
     color: teal;
@@ -129,7 +130,6 @@ p {
     padding: 3px 10px;
 
 
-
 }
 
 .back {
@@ -166,9 +166,11 @@ p {
 .posts > ul {
     padding-left: 20px;
 }
-ul > li{
+
+ul > li {
     color: #330505;
 }
+
 li > a {
     color: #460f0f;
     font-style: italic;

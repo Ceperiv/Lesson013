@@ -46,6 +46,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
             ulEl.append(liEl)
             postItem.append(ulEl)
         }
+
         postBtn.addEventListener('click', (e) => {
             if (e.target.closest('.post-btn')) {
                 setTimeout(` postItem.classList.toggle('toggle')`, 300)
